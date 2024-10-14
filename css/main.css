@@ -33,6 +33,10 @@ h1 {
     gap: 2rem;
 }
 
+.main-articles :hover {
+    background-color: #f0f0f0;
+}
+
 .article-image {
     width: 17%;
     border-radius: 15px;
