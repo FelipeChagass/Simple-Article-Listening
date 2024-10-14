@@ -39,7 +39,7 @@ h1 {
 }
 
 .article-image {
-    width: 17%;
+    width: 20%;
     border-radius: 15px;
     height: auto;
     margin-right: 16px;
@@ -63,3 +63,15 @@ h1 {
     font-size: 1rem;
 }
 
+
+@media (max-width: 768px) {
+    .post-content {
+        flex-direction: column; /* Muda a direção para coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+        width: 90%; /* Aumenta a largura do contêiner */
+    }
+
+    .article-image {
+        width: 100%; /* A imagem ocupará toda a largura do contêiner em dispositivos móveis */
+    }
+}
