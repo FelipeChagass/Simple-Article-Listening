@@ -1,0 +1,60 @@
+.container-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 20%;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.seperator {
+    margin-top: 40px;
+}
+
+.main-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.post-content {
+    margin-bottom: 3.5rem;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    gap: 2rem;
+}
+
+.article-image {
+    width: 17%;
+    border-radius: 15px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 1.9rem;
+    margin-bottom: 4px;
+}
+
+.article-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.article-date {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
